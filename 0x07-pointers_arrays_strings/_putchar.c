@@ -5,8 +5,8 @@
 *  Return: 1 (success)
 *  on error, -1 is returned
 */
-Int _putchar(char c)
+int _putchar(char c)
 {
-Return (write(1, &c, 1));
+	return (write(1, &c, 1));
 }
 
