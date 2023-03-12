@@ -1,0 +1,16 @@
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
+/**
+ * _strpbrk - Entry point
+ * @s: input
+ * @accept: input
+ * Return: 0
+ */
+char *_strpbrk(char *s, char *accept)
+{
+	strpbrk(s, accept);
+	return (0);
+}
