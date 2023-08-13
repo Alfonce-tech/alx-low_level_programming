@@ -3,7 +3,7 @@ int actual_prime(int n, int i);
 /**
 * is_prime_number - entry point
 * @n: input
-* Return: 1 
+* Return: 1
 */
 int is_prime_number(int n)
 {
