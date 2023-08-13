@@ -20,7 +20,7 @@ while (src[w] != '\0')
 dest[y] = src[w];
 y++;
 w++;
-}                
+}
 dest[y] = '\0';
 return (dest);
 }

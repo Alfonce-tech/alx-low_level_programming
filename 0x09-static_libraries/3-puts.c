@@ -1,4 +1,10 @@
 #include "main.h"
+/**
+ * _puts-entry
+ * str: input
+ * main -entry
+ * Return:..
+ */
 void _puts(char *str)
 #include<stdio.h>
 /**

@@ -19,6 +19,6 @@ while (s[k] <= '9' && (s[k] >= '0' && s[k] != '\0'))
 cue = (cue * 10) + (s[k] - '0');
 k++;
 }
-cue *= sign;
+cue *= show;
 return (cue);
 }
